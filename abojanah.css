@@ -1,0 +1,83 @@
+
+
+.unshown elemnt{
+    color: rgb(253, 133, 35);
+    font-size: 20;
+}
+
+
+.res{
+    height: 85px;
+    width: 85px; 
+    border: 5px;
+    
+    
+    background-image: url('resturant\ logo.jpeg');
+    background-attachment: fixed;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+} 
+
+
+
+
+
+
+
+
+
+div  {
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-image: url(phone\ icon.jpeg);
+    background-attachment: fixed;
+    float: right;
+    
+  }
+                    
+  @keyframes example {
+    0%   {    left: 0px;   top:0px;}
+    25%  {    left:100px;  top:0px;}   
+    100% {    left: 0px;   top:0px }
+    
+  }
+
+
+
+
+
+
+.simdi{width: 100px;
+    height: 100px;
+    
+    position: relative;
+    animation-name: simdi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-image: url(simdi\ iste.jpeg);
+    float: left;
+
+
+}
+
+
+    @keyframes simdi {
+        0%   {    left: 0px;   top:0px;}
+        25%  {    left:100px;  top:0px;}   
+        100% {    left: 0px;   top:0px }
+          
+    }
+
+
+
+
+.backbottun{
+    float: right;
+}
+
+    
